@@ -4,11 +4,15 @@
   font-family: 'Roboto', sans-serif;
 }
 
+img {
+  object-fit: contain;
+}
+
 section {
   height: 100vh;
 }
 
-.intro-section {
+.intro-section, .solo-works-section {
   background-color: gray; /* #c3ced8; */
 }
 
@@ -24,5 +28,17 @@ section {
 .compilation-gif {
   max-height: 1320px;
   max-width: 660px;
-  object-fit: contain;
+}
+
+.project-div {
+  max-height: 244px;
+  margin-top: 32px;
+}
+
+#soloWorksCarousel {
+  height: 80%;
+}
+
+.carousel-inner, .carousel-item {
+  height: 100%;
 }

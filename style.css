@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.intro-section {
+  background-color: #c3ced8;
+  height: 100vh;
+}
+
+.intro-div {
+  height: 100%;
+}
+
+.pfp-div {
+  background-color: #dee6ec;
+  max-height: 244px;
+}

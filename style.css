@@ -20,7 +20,7 @@ section:nth-of-type(2n-1) {
   height: 100%;
 }
 
-.pfp-div {
+.pfp-img {
   /* background-color: #dee6ec; */
   max-height: 244px;
 }
@@ -30,7 +30,7 @@ section:nth-of-type(2n-1) {
   max-width: 660px;
 }
 
-#soloWorksCarousel {
+#soloWorksCarousel, #groupWorksCarousel {
   min-height: 80%;
 }
 

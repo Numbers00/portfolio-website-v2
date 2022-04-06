@@ -4,10 +4,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-img {
-  object-fit: contain;
-}
-
 section {
   height: 100vh;
 }
@@ -37,4 +33,52 @@ section:nth-of-type(2n-1) {
 .project-div {
   max-height: 244px;
   margin-top: 32px;
+}
+
+.about-row-divs {
+  min-height: 80%;
+}
+
+.about-row-div {
+  max-height: 244px;
+}
+
+/* 
+  this was modified from w3school's https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_cards
+  the class names, sizes, background-colors and object-fits were changed to fit in the context and design
+*/
+.about-row-card {
+  background-color: gray;
+  max-height: 244px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.about-row-card img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-row-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.about-row-card-text {
+  margin-bottom: 0;
+  height: 10%;
+}
+
+/* 
+  end part
+*/
+
+.about-row-text-div {
+  background-color: gray;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.about-row-text-div {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }

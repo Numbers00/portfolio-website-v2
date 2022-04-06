@@ -12,8 +12,8 @@ section {
   height: 100vh;
 }
 
-.intro-section, .solo-works-section {
-  background-color: gray; /* #c3ced8; */
+section:nth-of-type(2n-1) {
+  background-color: gray;
 }
 
 .wrapper-div {

@@ -88,3 +88,8 @@ section:nth-of-type(2n-1) {
   transition: 0.3s;
   object-fit: cover;
 }
+
+.copyright-footer {
+  min-height: 32px;
+  background-color: #eee;
+}

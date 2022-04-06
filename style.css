@@ -26,17 +26,13 @@ section:nth-of-type(2n-1) {
   max-width: 660px;
 }
 
-#soloWorksCarousel, #groupWorksCarousel, #techStackCarousel {
+#soloWorksCarousel, #groupWorksCarousel, #techStackCarousel, .about-rows-div, .studying-cols-div {
   min-height: 80%;
 }
 
 .project-div {
   max-height: 244px;
   margin-top: 32px;
-}
-
-.about-row-divs {
-  min-height: 80%;
 }
 
 .about-row-div {
@@ -81,4 +77,14 @@ section:nth-of-type(2n-1) {
 
 .about-row-text-div {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.studying-content-img {
+  max-height: 320px;
+  min-height: 320px;
+  max-width: 320px;
+  min-width: 320px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  object-fit: cover;
 }

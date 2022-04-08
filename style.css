@@ -4,6 +4,12 @@
   font-family: 'Roboto', sans-serif;
 }
 
+img {
+  height: 244px;
+  width: 408px;
+  object-fit: cover;
+}
+
 section {
   height: 100vh;
 }

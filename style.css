@@ -4,12 +4,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-img {
-  height: 244px;
-  width: 408px;
-  object-fit: cover;
-}
-
 section {
   height: 100vh;
 }
@@ -39,6 +33,18 @@ section:nth-of-type(2n-1) {
 .project-div {
   max-height: 244px;
   margin-top: 32px;
+}
+
+.project-img {
+  height: 244px;
+  width: 408px;
+  object-fit: cover;
+}
+
+.logo-img {
+  height: 244px;
+  width: 408px;
+  object-fit: contain;
 }
 
 .about-row-div {

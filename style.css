@@ -101,6 +101,11 @@ section:nth-of-type(2n-1) {
   object-fit: cover;
 }
 
+.contact-section a {
+  color: white;
+  text-decoration: none;
+}
+
 .copyright-footer {
   min-height: 32px;
   background-color: #eee;

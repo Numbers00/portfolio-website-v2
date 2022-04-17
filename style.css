@@ -42,7 +42,7 @@ section:nth-of-type(2n-1) {
 .project-img {
   height: 244px;
   width: 408px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .logo-img {
@@ -105,7 +105,7 @@ section:nth-of-type(2n-1) {
   object-fit: cover;
 }
 
-.contact-section a {
+.solo-works-section a, .contact-section a {
   color: blue;
   text-decoration: none;
 }
